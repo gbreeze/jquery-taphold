@@ -1,0 +1,32 @@
+{
+    "name": "jquery-taphold",
+    "version": "1.0.0",
+    "description": "A jQuery event that's triggered when you click/tap and hold on an element.",
+    "main": "taphold.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gbreeze/jquery-taphold.git"
+    },
+    "registry": "jspm",
+    "keywords": [
+        "jquery-taphold",
+        "jquery-mobile",
+        "mobile",
+        "touch"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "jspm": {
+        "main": "taphold.js",
+        "shim": {
+            "src": {
+                "deps": "jquery",
+                "exports": "$"
+            }
+        }
+    }
+}

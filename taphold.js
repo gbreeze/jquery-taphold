@@ -3,11 +3,19 @@
 // Implements a tap and hold functionality. If you click/tap and release, it will trigger a normal
 // click event. But if you click/tap and hold for 1s (default), it will trigger a taphold event instead.
 
-;(function($)
+"format global";
+"deps jquery";
+"exports $";
+
+if (typeof jQuery === 'undefined') {
+  throw new Error('Taphold\'s JavaScript requires jQuery')
+}
+
+(function($)
 {
     // Default options
     var defaults = {
-        duration: 1000, // ms
+        duration: 500, // ms
         clickHandler: null
     }
 

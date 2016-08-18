@@ -20,7 +20,7 @@
         }
     ],
     "jspm": {
-        "registry": "Github",
+        "registry": "github",
         "shim": {
             "src": {
                 "deps": "jquery",

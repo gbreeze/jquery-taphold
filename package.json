@@ -6,7 +6,8 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:gbreeze/jquery-taphold.git"
-    },    
+    },
+    "registry": "github",
     "keywords": [
         "jquery-taphold",
         "jquery-mobile",
@@ -20,7 +21,6 @@
         }
     ],
     "jspm": {
-        "registry": "github",
         "shim": {
             "src": {
                 "deps": "jquery",

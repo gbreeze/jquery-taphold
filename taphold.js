@@ -113,13 +113,13 @@ if (typeof jQuery === 'undefined') {
         {
             $(this).bind((touchSupported ? "touchstart"            : "mousedown"),  data, startHandler)
                    .bind((touchSupported ? "touchend"              : "mouseup"),    stopHandler)
-                   .bind((touchSupported ? "touchmove touchcancel" : "mouseleave"), leaveHandler);
+                   .bind((touchSupported ? "touchmove touchcancel" : "mouseout"), leaveHandler);
         },
         teardown: function(namespaces)
         {
             $(this).unbind((touchSupported ? "touchstart"            : "mousedown"),  startHandler)
                    .unbind((touchSupported ? "touchend"              : "mouseup"),    stopHandler)
-                   .unbind((touchSupported ? "touchmove touchcancel" : "mouseleave"), leaveHandler);
+                   .unbind((touchSupported ? "touchmove touchcancel" : "mouseout"), leaveHandler);
         }
     };
 })(jQuery);

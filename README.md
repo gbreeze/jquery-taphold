@@ -1,3 +1,10 @@
+
+*Deprecated: do not behave proper on scrolling and some other demands*
+I use the jquery-mobile taphold event and it is working fine. You can do a custom bundle by selecting "Touch" under Events here: http://jquerymobile.com/download-builder/ 
+
+
+
+
 A taphold event for jQuery.
 
 Click/tap and hold for 1s (default) on an element to trigger a taphold event. If you release before the 1s then a normal click event is triggered instead. If you drag outside of the element while holding, then no event is triggered.

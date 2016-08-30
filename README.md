@@ -1,5 +1,5 @@
 
-*Deprecated: do not behave proper on scrolling and some other demands*
+### Deprecated: do not behave proper on scrolling and some other demands
 I use the jquery-mobile taphold event and it is working fine. You can do a custom bundle by selecting "Touch" under Events here: http://jquerymobile.com/download-builder/ 
 
 
